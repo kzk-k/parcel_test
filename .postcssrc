@@ -1,0 +1,6 @@
+{
+  "parser": "stylus",
+  "plugins": {
+    "autoprefixer": {}
+  }
+}

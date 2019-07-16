@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<!-- <link rel="icon" href=""> -->
+	<title>crawler_count</title>
+</head>
+<body>
+	<div id="app">
+		<main class="l-mainContainer">
+			<form action="./">
+				<div class="mdl-card">
+					<div class="mod-inputUrl">
+						<ol class="">
+							<li class="inputUrl-item js-inputUrl-item">
+								<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+									<input class="mdl-textfield__input js-inputUrl" type="text" id="inputUrl[ ]">
+									<label class="mdl-textfield__label" for="inputUrl[ ]">URLを入力</label>
+								</div>
+							</li>
+						</ol>
+					</div>
+				</div>
+				<button class="btn-add mdl-button mdl-button--colored mdl-js-button mdl-button--raised mdl-js-ripple-effect js-addInput" type="button">
+					<i class="material-icons">add</i>更に追加
+				</button>
+
+
+				<div class="mdl-card">
+					<div class="mod-inputDate">
+						<div class="inputDate-item">
+							<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+								<input class="mdl-textfield__input flatpickr" type="text" id="datepicker[ ]">
+								<label class="mdl-textfield__label" for="datepicker[ ]">日付を選択</label>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="btnWrap">
+					<button class="btn-send mdl-button mdl-button--accent mdl-js-button mdl-button--raised mdl-js-ripple-effect" type="submit">
+						送信<i class="material-icons">send</i>
+					</button>
+				</div>
+			</form>
+		</main>
+		<footer class="l-footer">
+			<small class="copyright">Get Google Crawler Count</small>
+		</footer>
+	</div>
+
+	<script defer src="./assets/js/index.js"></script>
+</body>
+</html>

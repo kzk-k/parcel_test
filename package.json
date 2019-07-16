@@ -1,0 +1,28 @@
+{
+  "name": "parcel_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx parcel src/index.html --open",
+    "build": "npx parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "browserslist": [
+    "last 2 version, android 4.4.3, iOS 11.0-11.4"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "babel-preset-env": "^1.7.0",
+    "node-sass": "^4.12.0",
+    "parcel": "^1.12.3",
+    "postcss-modules": "^1.4.1",
+    "escape-string-regexp": "^2.0.0",
+    "stylus": "^0.54.5"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}
