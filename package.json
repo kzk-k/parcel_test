@@ -7,9 +7,9 @@
     "build_lab": "rm dist/lab/*; npx parcel build src/lab/index.html --no-source-maps --out-dir dist/lab"
   },
   "devDependencies": {
-    "autoprefixer": "^9.7.5",
+    "autoprefixer": "^9.8.5",
     "parcel": "^1.12.4",
     "parcel-plugin-lazy": "0.0.4",
-    "sass": "^1.26.3"
+    "sass": "^1.26.10"
   }
 }
